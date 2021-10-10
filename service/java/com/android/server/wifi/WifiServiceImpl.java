@@ -233,6 +233,8 @@ public class WifiServiceImpl extends BaseWifiService {
 
     private final DefaultClientModeManager mDefaultClientModeManager;
 
+    private boolean mVerboseLoggingEnabled = false;
+
     /**
      * Callback for use with LocalOnlyHotspot to unregister requesting applications upon death.
      */
